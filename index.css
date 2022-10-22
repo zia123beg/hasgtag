@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(pexels-scott-webb-28054.jpg);
+    background-size: 1500px 800px;
+    color: wheat;
+    font-family: 'Noto Sans', sans-serif;
+
+    
+}
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+}
+.left img{
+    width: 80px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+
+    font-style: italic;
+    color: white;
+    line-height: 5px;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+.mid{
+    display: block;
+    text-decoration: center;
+    box-sizing: border-box;
+    width: 38%;
+    margin:   20px auto;
+
+
+
+}
+.navbar{
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+    
+    
+}
+.navbar li a{
+    color: aliceblue;
+    padding:  30px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.btn{
+    font-family: 'Noto Sans', sans-serif;
+
+    margin: 0px 9px;
+    background-color: black;
+    color: aliceblue;
+    padding: 4px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+.btn:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+.container{
+    border: 2px solid white ;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 35%;
+    border-radius: 28px;
+
+}
+.container h1{
+    text-align: center;
+}
+.button{
+    font-family: 'Noto Sans', sans-serif;
+
+    margin: 0px 9px;
+    background-color: black;
+    color: aliceblue;
+    padding: 4px 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    
+    
+}
+.button:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+.form-group input{
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 21px;
+    margin: 1px 7px;
+}
